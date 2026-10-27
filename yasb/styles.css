@@ -1137,7 +1137,7 @@
     font-size: 14px;
 }
 
-/* Control Center Media Player Controls */
+/* Control Center Media Player Controls*/
 .control-center-menu .section.media {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 12px;
@@ -1190,4 +1190,67 @@
     background-color: #47AFF5;
     border-radius: 2px;
     margin-left: 8px;
+}
+.power-menu-widget .label {
+    color: #f38ba8;
+    font-size: 13px;
+    font-family: 'JetBrainsMonoNerdFont';
+}
+.power-menu-popup {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 32px;
+}
+.power-menu-popup .button {
+    padding: 0;
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 80px;
+    border-radius: 12px;
+    background-color: #ffffff11;
+    border: 8px solid rgba(255, 255, 255, 0)
+}
+.power-menu-popup .button.hover {
+    background-color: #0969b8;
+    border: 8px solid #0969b8;
+}
+.power-menu-popup .button .label {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'JetBrainsMono';
+    color: #a9a9ac;.power-menu-popup .button .icon {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.4)
+}
+.power-menu-popup .button.hover .label,
+.power-menu-popup .button.hover .icon {
+    font-size: 42px;
+    color: #ffffff
+}
+.power-menu-popup .profile-info {
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+.power-menu-popup .profile-info .profile-username {
+    font-size: 24px;
+    font-weight: 600;
+    color: #cdd6f4;
+    margin-top: 0;
+    font-family: 'JetBrainsMonoNerdFont';
+}
+.power-menu-popup .profile-info .profile-account-type {
+    font-size: 13px;
+    color: #cdd6f493;
+    margin-top: 4px;
+    font-family: 'JetBrainsMonoNerdFont'
+}
+.power-menu-overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.power-menu-overlay .uptime {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #9ea2b4;
+    font-weight: 600;
 }
